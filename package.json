@@ -4,6 +4,7 @@
   "description": "URL Shortener Microservice",
   "main": "app.js",
   "scripts": {
+    "run": "node app.js",
     "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
