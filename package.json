@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "mongodb": "^2.2.26"
+    "mongodb": "^2.2.26",
+    "serve-favicon": "^2.4.3"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
