@@ -107,6 +107,11 @@ const getLinkController = (req, res) => {
 				}
 			})
 		})
+	} else {
+		console.log('invalid URL format \n')
+		res.json({
+			error: 'URL not found. Invalid URL provided'
+		})
 	}
 }
 
